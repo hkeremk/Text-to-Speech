@@ -78,7 +78,7 @@ def lambda_handler(event, context):
         # For the list of supported language codes, refer to
         # https://docs.aws.amazon.com/polly/latest/dg/SupportedLanguage.html
 
-        language_code = 'en'
+        language_code = 'en-US'
         
         # Read the file and convert to string
         # Start speech synthesis task to convert the string to speech.
