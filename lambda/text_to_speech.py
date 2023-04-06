@@ -8,7 +8,6 @@ import boto3
 import logging
 from botocore.exceptions import ClientError 
 
-# It is good practice to use proper logging.
 # Here we are using the logging module of python.
 # https://docs.python.org/3/library/logging.html
 
